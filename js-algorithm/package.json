@@ -1,0 +1,19 @@
+{
+  "name": "js-algorithm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.17.0",
+    "eslint-config-kankan": "0.0.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.5"
+  }
+}
