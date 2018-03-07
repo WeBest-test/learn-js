@@ -17,4 +17,6 @@ tagName/nodeName
 因此建议总是使用nodeName。    
 http://blog.csdn.net/borishuai/article/details/5719227  
 
+ES6 箭头函数this指向  
+> https://segmentfault.com/a/1190000003781467#articleHeader2  
 

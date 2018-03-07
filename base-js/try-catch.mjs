@@ -29,3 +29,4 @@ try {
 catch(e) {
   console.log(e);
 }
+getRectArea(3, 'A');
