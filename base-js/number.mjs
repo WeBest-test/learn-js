@@ -16,3 +16,6 @@ p(isFinite(Infinity))
 p(isFinite(Number.POSITIVE_INFINITY))
 p(isNaN({}))
 p(isNaN(Number.POSITIVE_INFINITY))
+
+p("===========")
+p(parseInt("100x"))
