@@ -20,3 +20,15 @@ http://blog.csdn.net/borishuai/article/details/5719227
 ES6 箭头函数this指向  
 > https://segmentfault.com/a/1190000003781467#articleHeader2  
 
+W3C/WHATWG的HTML标准  
+> http://www.zcfy.cc/article/w3c-vs-whatwg-html5-specs-differences-documented  
+https://developer.telerik.com/featured/w3c-vs-whatwg-html5-specs-differences-documented/  
+https://www.w3.org/TR/html52/  
+https://html.spec.whatwg.org/multipage/  
+
+
+HTML 5.1/5.2  
+> https://www.sitepoint.com/whats-new-in-html-5-1/   
+http://www.zcfy.cc/article/what-039-s-new-in-html-5-1  
+
+
