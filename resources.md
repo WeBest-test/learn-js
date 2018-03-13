@@ -25,7 +25,7 @@ W3C/WHATWG的HTML标准
 https://developer.telerik.com/featured/w3c-vs-whatwg-html5-specs-differences-documented/  
 https://www.w3.org/TR/html52/  
 https://html.spec.whatwg.org/multipage/  
-
+https://www.w3.org/wiki/HTML/W3C-WHATWG-Differences
 
 HTML 5.1/5.2  
 > https://www.sitepoint.com/whats-new-in-html-5-1/   
