@@ -9,7 +9,7 @@ function Dog() {
 
 Dog.prototype = new Animal();
 console.log(Dog.prototype.constructor)
-//Dog.prototype.constructor = Dog;  // Very Important
+//Dog.prototype.constructor = Dog;  
 
 console.log("===")
 let a = new Dog();
