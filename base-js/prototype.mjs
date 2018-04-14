@@ -38,6 +38,8 @@ console.log(a.__proto__ == Dog.prototype) // true
 console.log(Object.getPrototypeOf(a) == Dog.prototype) //true
 console.log(Dog.prototype.isPrototypeOf(a)) //true
 console.log(Animal.prototype.isPrototypeOf(a)) //true   VI
+console.log(Function.prototype.isPrototypeOf(a)) //true   VI
+console.log(Object.prototype.isPrototypeOf(a)) //true   VI
 
 console.log("===")
 console.log(Animal.prototype.__proto__ == Object.prototype) // true
