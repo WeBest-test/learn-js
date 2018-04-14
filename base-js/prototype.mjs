@@ -8,7 +8,7 @@ function Dog() {
 }
 
 Dog.prototype = new Animal();
-console.log(Dog.prototype.constructor) // [Function: Animal]
+console.log(Dog.prototype.constructor == Animal) // true
 //Dog.prototype.constructor = Dog;  
 
 console.log("===")
@@ -27,7 +27,5 @@ console.log(a.__proto__ == Animal.prototype) // false
 console.log(a.__proto__ == Dog.prototype) // true
 
 console.log("===")
-console.log(Animal.prototype.__proto__)
-console.log(Dog.prototype.__proto__)
 console.log(Animal.prototype.__proto__ == Object.prototype) // true
 console.log(Dog.prototype.__proto__ == Animal.prototype) // true
