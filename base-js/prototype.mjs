@@ -9,13 +9,15 @@ function Dog() {
 
 Dog.prototype = new Animal();
 console.log(Dog.prototype.constructor == Animal) // true
-//Dog.prototype.constructor = Dog;  
+// Dog.prototype.constructor = Dog;   //   VI
 
 console.log("===")
 let a = new Dog();
 console.log(a.cate) // Animal
 console.log(a.name) // Dog
-console.log(a.constructor) // [Function: Animal]
+console.log(a.constructor === Animal) // true
+
+console.log(a.constructor === Dog) // false  VI
 
 console.log("===")
 console.log(a instanceof Dog) // true
