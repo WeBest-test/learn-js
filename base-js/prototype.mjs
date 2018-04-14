@@ -8,26 +8,26 @@ function Dog() {
 }
 
 Dog.prototype = new Animal();
-console.log(Dog.prototype.constructor)
+console.log(Dog.prototype.constructor) // [Function: Animal]
 //Dog.prototype.constructor = Dog;  
 
 console.log("===")
 let a = new Dog();
-console.log(a.cate)
-console.log(a.name)
-console.log(a.constructor)
+console.log(a.cate) // Animal
+console.log(a.name) // Dog
+console.log(a.constructor) // [Function: Animal]
 
 console.log("===")
-console.log(a instanceof Dog)
-console.log(a instanceof Animal)
-console.log(a instanceof Object)
+console.log(a instanceof Dog) // true
+console.log(a instanceof Animal) // true
+console.log(a instanceof Object) // true
 
 console.log("===")
-console.log(a.__proto__ == Animal.prototype)
-console.log(a.__proto__ == Dog.prototype)
+console.log(a.__proto__ == Animal.prototype) // false
+console.log(a.__proto__ == Dog.prototype) // true
 
 console.log("===")
 console.log(Animal.prototype.__proto__)
 console.log(Dog.prototype.__proto__)
-console.log(Animal.prototype.__proto__ == Object.prototype)
-console.log(Dog.prototype.__proto__ == Animal.prototype)
+console.log(Animal.prototype.__proto__ == Object.prototype) // true
+console.log(Dog.prototype.__proto__ == Animal.prototype) // true
