@@ -10,6 +10,8 @@ function Dog() {
 }
 
 let animalInstance = new Animal();
+console.log(Animal.prototype.constructor == animalInstance.constructor) // true
+
 Dog.prototype = animalInstance;
 console.log(animalInstance.constructor == Animal) //  true
 
@@ -39,5 +41,5 @@ console.log(Animal.prototype.__proto__ == Object.prototype) // true
 console.log(Dog.prototype.__proto__ == Animal.prototype) // true
 
 console.log("===")
-console.log(a.hasOwnProperty("tag")) // true
+console.log(a.hasOwnProperty("tag")) // false
 console.log("tag" in a) // true
