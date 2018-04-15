@@ -31,4 +31,10 @@ HTML 5.1/5.2
 > https://www.sitepoint.com/whats-new-in-html-5-1/   
 http://www.zcfy.cc/article/what-039-s-new-in-html-5-1  
 
+JS判断类型
+> http://www.jb51.net/article/102972.htm  
+
+JS == ===
+> https://www.zhihu.com/question/31442029
+
 
